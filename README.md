@@ -56,6 +56,14 @@ Install fira code font:
 
 [Fira Code](https://github.com/tonsky/FiraCode)
 
+## Installing jsdom quokka plugin
+
+On macOS, navigate to ~/.quokka and run npm install jsdom-quokka-plugin. Installing will give access to browser related objects like window/document/navigator/etc. which are not available by default.
+
+Also add the plugin into global config file or per file. More can be found here:
+
+[jsdom-quokka-plugin](https://github.com/wallabyjs/jsdom-quokka-plugin).
+
 ## Git configuration
 
 Set username in global config:
